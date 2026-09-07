@@ -32,9 +32,9 @@ const passwordRef = useRef(null)
     // window.navigator.clipboard.writeText(password)
   // },[password])
 
-useEffect(()=> {
-  passwordGenerator()
-},[length,numberAllowed,charAllowed,passwordGenerator])
+// useEffect(()=> {
+//   passwordGenerator()
+// },[length,numberAllowed,charAllowed,passwordGenerator])
 
 
   return (
