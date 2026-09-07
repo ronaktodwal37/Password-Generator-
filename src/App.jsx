@@ -26,11 +26,11 @@ const passwordRef = useRef(null)
 
   } , [length,numberAllowed,charAllowed,setPassword])
 
-  const copyPasswordToClipboard = useCallback(()=> {
+  // const copyPasswordToClipboard = useCallback(()=> {
     // passwordRef.current?.select();
     // passwordRef.current?.setSelectionRange(0,100);
     // window.navigator.clipboard.writeText(password)
-  },[password])
+  // },[password])
 
 useEffect(()=> {
   passwordGenerator()
