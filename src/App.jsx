@@ -14,7 +14,7 @@ const passwordRef = useRef(null)
     let pass = ""
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
-    if(numberAllowed) str+= "0123456789"
+    // if(numberAllowed) str+= "0123456789"
     if(charAllowed) str+= "!@#$%^&*()-_+={}[]~"
 
     for(let i=1;i<=length;i++){
