@@ -10,7 +10,7 @@ function App() {
   // useRef hook 
 // const passwordRef = useRef(null)
 
-  const passwordGenerator = useCallback(() => {
+  // const passwordGenerator = useCallback(() => {
     // let pass = ""
     // let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
@@ -24,7 +24,7 @@ function App() {
 
     setPassword(pass)
 
-  } , [length,numberAllowed,charAllowed,setPassword])
+  // } , [length,numberAllowed,charAllowed,setPassword])
 
   // const copyPasswordToClipboard = useCallback(()=> {
     // passwordRef.current?.select();
