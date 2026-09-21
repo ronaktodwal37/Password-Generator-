@@ -7,5 +7,5 @@
   <StrictMode>
     <App />
   </StrictMode>,
-)
+// )
 
