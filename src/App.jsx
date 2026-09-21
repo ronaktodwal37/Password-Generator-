@@ -22,7 +22,7 @@ const passwordRef = useRef(null)
       pass += str.charAt(char)
     }
 
-    // setPassword(pass)
+    setPassword(pass)
 
   } , [length,numberAllowed,charAllowed,setPassword])
 
