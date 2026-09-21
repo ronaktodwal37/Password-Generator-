@@ -33,7 +33,7 @@ const passwordRef = useRef(null)
   },[password])
 
 useEffect(()=> {
-//   passwordGenerator()
+  passwordGenerator()
 },[length,numberAllowed,charAllowed,passwordGenerator])
 
 
